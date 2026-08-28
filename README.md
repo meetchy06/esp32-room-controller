@@ -1,5 +1,5 @@
 # esp32-room-controller
-This project is an ESP32-based room automation system built to monitor ambient light and temperature and automatically control several devices around a room. The controller uses environmental sensors for live room measurements, 433.92 MHz RF hardware for controlling wireless outlets and compatible remote-controlled devices, and an optocoupler interface connected to the original remote of an adjustable lamp. Once the firmware is uploaded, the ESP32 can run continuously from a USB-C power source without needing to stay connected to a computer.
+This project is an ESP32-based automation system that I built to monitor the light and temperature in my room and automatically adjust the environment using my fan and lamps. It combines environmental sensors for real-time measurements with 433.92 MHz RF communication and an optocoupler interface to control the different devices. Once the firmware is uploaded, the ESP32 can run continuously from a USB-C power source without needing to stay connected to a computer.
 
 ## Features
 - ambient light monitoring using a BH1750 sensor
