@@ -2,7 +2,7 @@
 
 RCSwitch transmitter;
 
-const int transmitterPin = 23;
+const int transmitterPin = 27;
 
 struct RFCode {
   unsigned long value;
